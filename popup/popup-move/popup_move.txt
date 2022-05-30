@@ -1,0 +1,10 @@
+<!--popup move-->
+	<script src="popup/jquery.cookie.js"></script>
+    <script src="popup/jquery-ui-1.10.4.custom.min.js"></script>
+    <script>
+    //<[CDATA[
+        $(function(){
+            $("#showimage").css("cursor","move").draggable();
+        });
+    //]]>
+    </script>

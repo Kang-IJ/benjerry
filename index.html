@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Ben &amp; Jerry's Ice Cream</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="common/css/common.css">
+<link rel="stylesheet" href="maincss/main.css">
+<link rel="shortcut icon" type="image/x-icon"  href="ico/logo_tiny.ico">
+<link rel="stylesheet" href="maincss/media.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+
+<!-- mouse wheel -->
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jssor.slider-22.1.8.mini.js"></script>
+<script src="common/js/common.js"></script>
+	
+<script src="js/main.js"></script>
+
+</head>
+
+<body>
+<div id="wrap">
+
+
+
+<div class="back"></div>
+    <div class="menu2">
+      <ul class="gnb2">
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="sub/flavors.html">FLAVORS</a></li>
+		 <li><a href="#">SHOP</a></li>
+		 <li><a href="#">NEWS</a></li>
+		 <li><a href="#">ABOUT US</a></li>
+		 <li><a href="#">VALUES</a></li>
+         <li><a href="#">FIND US</a></li>
+	  </ul>
+	</div>
+    
+    <div class="menu_btn">
+  		<p class="x1"></p>
+  		<p class="x2"></p>
+  		<p class="x3"></p>
+	</div>
+<div class="gnb_r">
+	<ul>
+    	<li class="on"><a href="#sec1"><span class="txtm">home</span></a></li>
+    	<li><a href="#sec2"><span class="txtm">new</span></a></li>
+        <li><a href="#sec3"><span class="txtm">varieties</span></a></li>
+    	<li><a href="#sec4"><span class="txtm">favorites</span></a></li>
+    	<li><a href="#sec5"><span class="txtm">values</span></a></li>
+    	<li><a href="#sec6"><span class="txtm">newsletter</span></a></li>
+    </ul>
+</div>
+
+<h1><a href="index.html"><img src="common/images/logo.png" alt="logo"></a></h1>
+<section id="sec1" class="page1">
+<header id="header">
+	<nav class="header_in">
+	<ul class="gnb">
+		<li onClick="self.location='sub/flavors.html',';'"><a href="#">FLAVORS</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">NEWS</a></li>
+		<li>&nbsp;</li>
+		<li><a href="#">ABOUT US</a></li>
+        <li><a href="#">VALUES</a></li>
+        <li><a href="#">FIND US</a></li>
+        <li></li>
+	</ul>
+	</nav><!--header_in /-->
+
+</header>
+<img src="images/search.png" alt="search" class="search">
+<div class="search_box">
+    <input type="text" placeholder="검색어" class="search_form">
+    <input type="button" value="Search" class="search_btn">
+</div>
+
+<video loop muted autoplay class="video"><source src="images/Pint_in_Space!_Boots_On_The_Moooo’n.mp4"></video>
+<div class="visual_txt">
+<h3 class="visual_txt_heading" data-aos="zoom-out-up">Ben and Jerry's X <span>Space Force</span></h3>
+<p class="visual_txt_teaser" data-aos="zoom-out-up">boots on the mooo'n!</p>
+<a href="sub/flavors.html" class="visual_txt_cta" data-aos="zoom-out-up">Buy It Now!</a>
+</div><!--content /-->
+
+</section>
+
+
+	<!--신상품-->
+    <section id="sec2" class="page2">
+    <h2 data-aos="zoom-out-up">new flavors</h2>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1200px;height:612px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1200px;height:612px;overflow:hidden;">
+            <div class="chiphappens_box">
+                <img data-u="image" src="images/chiphappens_back2.jpg" alt="icecream back"/>
+                <a href="sub/flavors.html"><img src="images/chiphappens_pint.png" alt="icecream" class="pints">
+                <p class="a1">chip happens</p></a>
+            </div>
+			<div class="cannoli_box">
+                <img data-u="image" src="images/cannoli_back.jpg" alt="icecream back"/>
+                <a href="sub/flavors.html"><img src="images/cannoli-detail.png" alt="icecream" class="pints">
+                <p class="a1">cannoli</p></a>
+            </div>
+            <div class="chiphappens_box">
+                <img data-u="image" src="images/smore_back.jpg" alt="icecream back"/>
+                <a href="sub/flavors.html"><img src="images/gimme_smore.png" alt="icecream" class="pints">
+                <p class="a1">gimme s'more!</p></a>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:46px;right:46px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:10px;height:10px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:200px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:200px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+    </section><!--cont1 /-->
+    
+    <!--아이스크림 종류별-->
+    <section id="sec3" class="page3">
+    	<h2>&nbsp;</h2>
+    	<ul class="pc_variety">
+        	<li><a href="sub/flavors.html"><img src="images/variety_1.jpg" alt="variety1">
+				<p>pints</p>
+                <div class="blackbox"></div>
+				</a></li>
+        	<li><a href="sub/flavors.html"><img src="images/variety2.jpg" alt="variety2">
+				<p>mini<br>
+					cups</p>
+                <div class="blackbox"></div>
+				</a></li>
+        	<li><a href="sub/flavors.html"><img src="images/variety3.jpg" alt="variety3">
+				<p>pint<br>
+                	slices</p>
+                <div class="blackbox"></div>
+				</a></li>
+        	<li><a href="sub/flavors.html"><img src="images/variety4.jpg" alt="variety4">
+				<p>scoops</p>
+                <div class="blackbox"></div>
+				</a></li>
+        	<li><a href="sub/flavors.html"><img src="images/variety5.jpg" alt="variety5">
+				<p>cookie<br>
+                dough<br>
+					chunks</p>
+                <div class="blackbox"></div>
+				</a></li>
+        </ul>
+        <ul class="t_m_variety">
+        	<li><a href="sub/flavors.html"><img src="images/variety_hor_1.jpg" alt="variety1">
+				<p>pints</p>
+                <div class="blackbox"></div>
+				</a></li>
+        	<li><a href="sub/flavors.html"><img src="images/variety_hor_2.jpg" alt="variety2">
+				<p>mini 
+					cups</p>
+                <div class="blackbox"></div>
+				</a></li>
+        	<li><a href="sub/flavors.html"><img src="images/variety_hor_3.jpg" alt="variety3">
+				<p>pint 
+                	slices</p>
+                <div class="blackbox"></div>
+				</a></li>
+        	<li><a href="sub/flavors.html"><img src="images/variety_hor_4.jpg" alt="variety4">
+				<p>scoops</p>
+                <div class="blackbox"></div>
+				</a></li>
+        	<li><a href="sub/flavors.html"><img src="images/variety_hor_5.jpg" alt="variety5">
+				<p>cookie dough chunks</p>
+                <div class="blackbox"></div>
+				</a></li>
+        </ul>
+    </section><!--cont2/-->
+
+    <!--좋아하는 아이스크림-->
+    <section id="sec4" class="page4">
+    <h2 data-aos="zoom-out-up">all time favorites</h2>
+    
+		<img src="images/favorite_ice1.png" alt="fav1" class="fav1">
+        <img src="images/favorite_ice2.png" alt="fav2" class="fav2">
+        <img src="images/favorite_ice3.png" alt="fav3" class="fav3">
+        
+	  <div class="page_box">
+      <div class="page_box_in">
+        <img src="images/podium.png" alt="podium" class="podium">
+        <a href="sub/flavors.html"><img src="images/chunky_monkey.png" alt="chunky" class="chunky p4Img"></a>
+        <a href="sub/flavors.html"><img src="images/new_york_super_fudge_chunk.png" alt="newyork" class="newyork p4Img"></a>
+        <a href="sub/flavors.html"><img src="images/half_baked.png" alt="halfbaked" class="halfbaked p4Img"></a>
+      </div>  
+      </div> 
+     
+        <p class="fav">discover more favorite flavors</p>
+    </section><!--cont3/-->
+    
+    <!--회사 values-->
+	<section id="sec5" class="page5">
+    <h2>We make the best possible ice cream in the best possible way.</h2>
+    	<div class="pc_box">
+        	<ul class="pc_values">
+            	<li><a href="#"><img src="images/value1.jpg" alt="value1"><p>caring dairy</p><p class="more">learn more</p>
+                </a></li>
+                <li><a href="#"><img src="images/value2.jpg" alt="value2"><p>cage free eggs</p><p class="more">learn more</p>
+                </a></li>
+                <li><a href="#"><img src="images/value3.jpg" alt="value3"><p>fair trade</p><p class="more">learn more</p>
+                </a></li>
+                <li><a href="#"><img src="images/value4.jpg" alt="value4"><p>non GMO</p><p class="more">learn more</p>
+                </a></li>
+            </ul>
+            </div><!--box /-->
+            <div class="t_m_box">
+        	<ul class="t_m_values">
+            	<li><a href="#"><img src="images/value1.jpg" alt="value1"><p>caring dairy</p><p class="more">learn more</p>
+                </a></li>
+                <li><a href="#"><img src="images/value2.jpg" alt="value2"><p>cage free eggs</p><p class="more">learn more</p>
+                </a></li>
+                <li><a href="#"><img src="images/value3.jpg" alt="value3"><p>fair trade</p><p class="more">learn more</p>
+                </a></li>
+                <li><a href="#"><img src="images/value4.jpg" alt="value4"><p>non GMO</p><p class="more">learn more</p>
+                </a></li>
+            </ul>
+        </div><!--box /-->
+    </section><!--cont4/-->
+    
+    <!--뉴스레터-->
+	<section id="sec6" class="page6">
+    <h2>&nbsp;</h2>
+    	<div class="box1">
+        	<ul>
+            	<li>subscribe to our newsletter</li>
+                <li>receive monthly roundups of our most popular content.</li>
+                <li><input type="text" placeholder="please enter your email here"></li>
+                <li><a href="#">subscribe</a></li>
+            </ul>
+        </div><!--box1 /-->
+    </section><!--cont5/-->
+
+        
+<p><a class="top" href="javascript:window.scrollTo(0,0);"><img src="images/top.png" alt="top"></a></p>
+	
+<footer id="footer">
+<ul>
+	<li><a href="#">Contact Us</a></li>
+    <li><a href="#">Franchise</a></li>
+    <li><a href="#">Press</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="#">Terms of Use</a></li>
+    <li><a href="#">Privacy Notice</a></li>
+    <li><a href="#">Sitemap</a></li>
+</ul>
+	<h1><a href="#"><img src="common/images/footer_logo.png" alt="logo"></a></h1>
+    
+	<p>© 2020 Ben &amp; Jerry's Homemade, Inc.</p>
+	
+	</footer>
+</div><!--wrap /-->
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init({
+          easing: 'ease-out-back',
+      });
+
+  </script>
+
+	
+<!-------------popup------------->
+	
+<script src="popup/mainpopup.js"></script>
+    
+<div id="showimage" style="z-index: 99; width: 322px; position: absolute; left: 100px; top: 170px;">
+  <script>
+    function closeWin(){
+       var chk = document.getElementById('Notice')
+       if ( chk.checked ) {
+             setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+        }
+    }
+   if ( getCookie( "Notice" ) == "done" ) {
+       hidebox();
+   }
+ </script>
+ <table>
+    <caption><span class="hidden">공지사항</span></caption>
+    <tr>
+      <td>
+          <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+      </td>
+    </tr>
+    <tr>
+       <td style="height:15px;cursor:pointer;"><p style="font-size:12px;text-align:center;color:#fff;"><input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label><a style="cursor:pointer"  onclick="closeWin();hidebox();return false;"> [close] </a></p></td>
+    </tr>
+ </table>
+</div>
+
+<!--popup move-->
+
+	<script src="popup/popup-move/jquery.cookie.js"></script>
+    <script src="popup/popup-move/jquery-ui-1.10.4.custom.min.js"></script>
+    <script>
+    //<[CDATA[
+        $(function(){
+            $("#showimage").css("cursor","move").draggable();
+        });
+    //]]>
+    </script>
+</body>
+</html>

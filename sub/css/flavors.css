@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*header*/
+
+#header { background: #191919; }
+
+/*wrap*/
+#wrap { background:url(../../images/paperboard_texture1.jpg); }
+
+/*icecream*/
+
+#icecream { position: relative; width: 100%; margin: 0 auto; text-align: center; margin-bottom: 0px; font-family: 'Londrina Solid', cursive; }
+#icecream .board { position: absolute; left: 50%; transform: translateX(-50%); width: 900px; height: 150px; top: 70px; }
+
+
+#icecream .tab_btn { position: relative; width: 1000px; height: 250px; margin: 0 auto;  }
+#icecream .tab_btn ul { position: absolute; top: 135px; left: 50%; transform: translateX(-50%); width: 710px; }
+#icecream .tab_btn ul li a { float: left; color: #000; margin-right: 50px; font-size: 25px; font-weight: 400; transition: 0.3s; }
+#icecream .tab_btn ul li:last-child a { margin-right: 0; }
+#icecream .tab_btn ul li.active a { transform: translateY(-5px) scale(1.2); }
+
+
+#icecream .tab_cont { width: 1000px; overflow: hidden; margin: 0 auto; }
+
+/* 파인트 */
+#icecream .tab_cont .ice1 li { position: relative; float: left; margin: 110px 20px 0 0; z-index: 5; }
+#icecream .tab_cont .ice1 li:nth-child(5n) { margin-right: 0; }
+#icecream .tab_cont .ice1 li img { width: 180px; transition: 0.4s; }
+#icecream .tab_cont .ice1 li:hover img { transform: scale(1.1); }
+
+/* 미니 컵 */
+#icecream .tab_cont .ice2 li { position: relative; float: left; margin: 160px 30px 0 10px; z-index: 5; }
+#icecream .tab_cont .ice2 li:nth-child(5) { margin-right: 0; }
+#icecream .tab_cont .ice2 li img { height: 180px; transition: 0.4s; }
+#icecream .tab_cont .ice2 li:hover img { transform: scale(1.1); }
+
+/* 파인트 슬라이스 */
+#icecream .tab_cont .ice3 li { position: relative; float: left; margin: 158px 30px 0 10px; z-index: 5; }
+#icecream .tab_cont .ice3 li:nth-child(5) { margin-right: 0; }
+#icecream .tab_cont .ice3 li img { height: 180px; transition: 0.4s; }
+#icecream .tab_cont .ice3 li:hover img { transform: scale(1.1); }
+
+/* 스쿱 */
+#icecream .tab_cont .ice4 li { position: relative; float: left; margin: 110px 20px 0 0; z-index: 5; }
+#icecream .tab_cont .ice4 li:nth-child(5n) { margin-right: 0; }
+#icecream .tab_cont .ice4 li img { width: 180px; transition: 0.4s; }
+#icecream .tab_cont .ice4 li:hover img { transform: scale(1.1); }
+
+/* 스쿱 */
+#icecream .tab_cont .ice5 li { position: relative; float: left; margin: 110px 20px 0 0; z-index: 5; }
+#icecream .tab_cont .ice5 li:nth-child(5n) { margin-right: 0; }
+#icecream .tab_cont .ice5 li img { width: 180px; transition: 0.4s; }
+#icecream .tab_cont .ice5 li:hover img { transform: scale(1.1); }
+
+/* 아이스크림 선반 */
+
+#icecream .tab_cont .shelves1 li { position: absolute; left: 50%; transform: translateX(-50%); }
+#icecream .tab_cont .shelves1 li:first-child { top: 570px; }
+#icecream .tab_cont .shelves1 li:nth-child(2) { top: 910px; }
+#icecream .tab_cont .shelves1 li:nth-child(3) { top: 1250px; }
+#icecream .tab_cont .shelves1 li:nth-child(4) { top: 1590px; }
+#icecream .tab_cont .shelves1 li:nth-child(5) { top: 1932px; }
+#icecream .tab_cont .shelves1 li:nth-child(6) { top: 2272px; }
+#icecream .tab_cont .shelves1 li:nth-child(7) { top: 2613px; }
+#icecream .tab_cont .shelves1 li:nth-child(8) { top: 2954px; }
+#icecream .tab_cont .shelves1 li:nth-child(9) { top: 3294px; }
+#icecream .tab_cont .shelves1 li:nth-child(10) { top: 3634px; }
+#icecream .tab_cont .shelves li img { width: 1050px; }
+
+/* 스쿱 선반 */
+#icecream .tab_cont .shelves2 li { position: absolute; left: 50%; transform: translateX(-50%); }
+#icecream .tab_cont .shelves2 li:first-child { top: 525px; }
+#icecream .tab_cont .shelves2 li:nth-child(2) { top: 825px; }
+#icecream .tab_cont .shelves2 li:nth-child(3) { top: 1122px; }
+#icecream .tab_cont .shelves2 li:nth-child(4) { top: 1420px; }
+#icecream .tab_cont .shelves2 li:nth-child(5) { top: 1720px; }
+#icecream .tab_cont .shelves2 li:nth-child(6) { top: 2020px; }
+#icecream .tab_cont .shelves2 li:nth-child(7) { top: 2320px; }
+#icecream .tab_cont .shelves2 li:nth-child(8) { top: 2620px; }
+
+
+/* 아이스크림 이름 색 */
+#icecream .tab_cont li .icecream_name { position: absolute; left: 50%; transform: translateX(-50%); width: 100%; top: -50px; font-size: 15px; font-weight: normal; transition: 0.3s; font-weight: 300; color: #000; }
+#icecream .tab_cont li:hover .icecream_name { font-weight: 400; font-size: 17px; }
+
+/*파인트*/
+#icecream .tab_cont .ice1 li:first-child p { color: #d8232a; }
+#icecream .tab_cont .ice1 li:nth-child(2) p { color: #7f76bb; }
+#icecream .tab_cont .ice1 li:nth-child(3) p { color: #5f7396; }
+#icecream .tab_cont .ice1 li:nth-child(4) p { color: #4e3a32; }
+#icecream .tab_cont .ice1 li:nth-child(5) p { color: #655aa5; }
+#icecream .tab_cont .ice1 li:nth-child(6) p { color: #d42335 ; }
+#icecream .tab_cont .ice1 li:nth-child(7) p { color: #4c2a18; }
+#icecream .tab_cont .ice1 li:nth-child(8) p { color: #6d4f2a; }
+#icecream .tab_cont .ice1 li:nth-child(9) p { color: #e46a2f; }
+#icecream .tab_cont .ice1 li:nth-child(10) p { color: #5c3a31; }
+#icecream .tab_cont .ice1 li:nth-child(11) p { color: #7d8853; }
+#icecream .tab_cont .ice1 li:nth-child(12) p { color: #3d918a; }
+#icecream .tab_cont .ice1 li:nth-child(13) p { color: #642a87; }
+#icecream .tab_cont .ice1 li:nth-child(14) p { color: #7e47a6; }
+#icecream .tab_cont .ice1 li:nth-child(15) p { color: #2d469f; }
+#icecream .tab_cont .ice1 li:nth-child(16) p { color: #7c360b; }
+#icecream .tab_cont .ice1 li:nth-child(17) p { color: #3f230e; }
+#icecream .tab_cont .ice1 li:nth-child(18) p { color: #5a5024; }
+#icecream .tab_cont .ice1 li:nth-child(19) p { color: #986023; }
+#icecream .tab_cont .ice1 li:nth-child(20) p { color: #227ec7; }
+#icecream .tab_cont .ice1 li:nth-child(21) p { color: #5c3a31; }/*gimme s'more*/
+#icecream .tab_cont .ice1 li:nth-child(22) p { color: #576644; }
+#icecream .tab_cont .ice1 li:nth-child(23) p { color: #dc2e35; }
+#icecream .tab_cont .ice1 li:nth-child(24) p { color: #93672c; }
+#icecream .tab_cont .ice1 li:nth-child(25) p { color: #e26f24; }
+#icecream .tab_cont .ice1 li:nth-child(26) p { color: #dd502b; }/*milk*/
+#icecream .tab_cont .ice1 li:nth-child(27) p { color: #94ca58; }
+#icecream .tab_cont .ice1 li:nth-child(28) p { color: #4ca262; }
+#icecream .tab_cont .ice1 li:nth-child(29) p { color: #243f69; }
+#icecream .tab_cont .ice1 li:nth-child(30) p { color: #3b9397; }
+#icecream .tab_cont .ice1 li:nth-child(31) p { color: #c39240; }/*Oat of this Swirled*/
+#icecream .tab_cont .ice1 li:nth-child(32) p { color: #e57239; }
+#icecream .tab_cont .ice1 li:nth-child(33) p { color: #e47325; }
+#icecream .tab_cont .ice1 li:nth-child(34) p { color: #6644a2; }
+#icecream .tab_cont .ice1 li:nth-child(35) p { color: #7ba22d; }
+#icecream .tab_cont .ice1 li:nth-child(36) p { color: #a51859; }/*Pucker Upper*/
+#icecream .tab_cont .ice1 li:nth-child(37) p { color: #d57f1f; }
+#icecream .tab_cont .ice1 li:nth-child(38) p { color: #de1d23; }
+#icecream .tab_cont .ice1 li:nth-child(39) p { color: #d38a2c; }
+#icecream .tab_cont .ice1 li:nth-child(40) p { color: #4e2426; }
+#icecream .tab_cont .ice1 li:nth-child(41) p { color: #cc223d; }/*strawberry cheesecake*/
+#icecream .tab_cont .ice1 li:nth-child(42) p { color: #293e78; }
+#icecream .tab_cont .ice1 li:nth-child(43) p { color: #454476; }
+#icecream .tab_cont .ice1 li:nth-child(44) p { color: #d48b60; } 
+#icecream .tab_cont .ice1 li:nth-child(45) p { color: #3163b1 ; } 
+#icecream .tab_cont .ice1 li:nth-child(46) p { color: #966421; } 
+
+/* 미니 컵 */
+#icecream .tab_cont .ice2 li:first-child p { color: #d8232a; }
+#icecream .tab_cont .ice2 li:nth-child(2) p { color: #783d27; }
+#icecream .tab_cont .ice2 li:nth-child(3) p { color: #d42335; }
+#icecream .tab_cont .ice2 li:nth-child(4) p { color: #f16a2e; }
+#icecream .tab_cont .ice2 li:nth-child(5) p { color: #744e3b; }
+#icecream .tab_cont .ice2 li:nth-child(6) p { color: #af6628 ; }
+#icecream .tab_cont .ice2 li:nth-child(7) p { color: #ee1831 ; }
+
+
+/* 파인트 슬라이스 */
+#icecream .tab_cont .ice3 li:first-child p { color: #036c43; }
+#icecream .tab_cont .ice3 li:nth-child(2) p { color: #ee262e; }
+#icecream .tab_cont .ice3 li:nth-child(3) p { color: #da8a28; }
+#icecream .tab_cont .ice3 li:nth-child(4) p { color: #e91c2d; }
+#icecream .tab_cont .ice3 li:nth-child(5) p { color: #e45232; }
+#icecream .tab_cont .ice3 li:nth-child(6) p { color: #523628 ; }
+#icecream .tab_cont .ice3 li:nth-child(7) p { color: #1c4374 ; }
+
+/* 쿠키 도우 청크 */
+#icecream .tab_cont .ice5 li:first-child p { color: #897cb7; }
+#icecream .tab_cont .ice5 li:nth-child(2) p { color: #602e04; }
+#icecream .tab_cont .ice5 li:nth-child(3) p { color: #d64b01; }
+#icecream .tab_cont .ice5 li:nth-child(4) p { color: #c7150f; }
+#icecream .tab_cont .ice5 li:nth-child(5) p { color: #008d75; }
+#icecream .tab_cont .ice5 li:nth-child(6) p { color: #c77733 ; }
+#icecream .tab_cont .ice5 li:nth-child(7) p { color: #739f58 ; }
+
+
+#footer { margin-top: 100px; }
+
+
+
+
+/*--------------- media -----------------*/
+/* 모바일 */
+ @media screen and (max-width:639px){
+
+     #wrap { padding-top: 100px; box-sizing: border-box; }
+/* #icecream .board { margin-top: 100px; }
+#icecream .tab_btn { margin: 100px auto 0; }*/
+
+}
+
+
+/*  태블릿 */
+ @media screen and (min-width:640px) and (max-width:1119px){
+     
+     #wrap { padding-top: 100px; box-sizing: border-box; }
+     /*#icecream .board { margin-top: 100px; }
+#icecream .tab_btn { margin: 100px auto 0; }*/
+
+}
+
+/* PC */
+@media all and (min-width:1200px){
+
+}
